@@ -1,0 +1,24 @@
+name: TownyTech
+version: 1.0.7
+main: ru.etysoft.townytech.TownyTech
+api-version: 1.13
+prefix: TownyTech
+depend: [Towny]
+authors: [karlov_m]
+description: Upgrades for Town
+website: etysoft.ru
+commands:
+  tech:
+    description: Main TownyTech command
+    usage: /<command>
+    permission: townytech.use
+permissions:
+  townytech.use:
+    default: op
+    description: Allows to use tech
+  townytech.upgrade:
+    default: op
+    description: Allows to upgrade
+  townytech.admin:
+    default: op
+    description: Allows to give an upgrade

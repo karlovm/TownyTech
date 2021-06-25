@@ -1,0 +1,106 @@
+###########################################
+#####           TownyTech             #####
+#####             v.1.0               #####
+###########################################
+# Author: karlov_m                        #
+###########################################
+
+config-version: 1.0
+
+######################################################################################
+# Plugin                                                                             #
+######################################################################################
+
+prefix: "&7[&9TownyTech&7] "
+cant-from-console: "&cYou cannot do it from console!"
+no-perm: "&cYou have not permission!"
+args: "&cBad args!"
+eror: "&cUnknown error occurred! &6(bad config?)"
+
+######################################################################################
+# Tech                                                                               #
+######################################################################################
+
+title: "TownyTech"
+title-upgrade: "Upgrade"
+no-town: "&cYou have no town!"
+upgrade: "&aYour town level has been upgraded to %s!"
+upgrade-mine: "&aNow you have &f%s&a level mine!"
+upgrade-hunt: "&aNow you have &f%s&a level hunting!"
+upgrade-farm: "&aNow you have &f%s&a level farming!"
+not-enough-money: "&cThere are not enough money on the town's account"
+err-upgrade: "&cYou can't upgrade to this level!"
+
+
+town: "&9%s"
+residents: "&7Residents &f%s"
+level: "Level &f%s"
+price: "&aPrice: %s"
+
+levels:
+  maxLevel: 3
+  0: "&aSwamp"
+  1: "&bVillage"
+  2: "&5City"
+  3: "&6Megapolis"
+
+miners:
+  title: "&7Mine"
+  maxLevel: 0
+  levels:
+    0:
+      price: 0
+      title: "level 0"
+      lore: "level 0"
+      auto-gold: false
+      auto-iron: false
+      coalChance: 0
+      coalModifier: 1
+      diamondModifier: 0
+      diamondChance: 0
+      diamondGoldBonusChance: 0
+      diamondGoldBonusModifier: 0
+      ironModifier: 0
+      ironChance: 0
+      goldModifier: 0
+      goldChance: 0
+      fastDigging: true
+      fastDiggingEffectDuration: 90
+      fastDiggingEffectAmplifier: 90
+
+hunters:
+  title: "&7Hunting"
+  maxLevel: 1
+  levels:
+    0:
+      price: 0
+      title: "level 0"
+      lore: "level 0"
+      leatherModifier: 1
+      leatherChance: 0
+      meatModifier: 1
+      meatChance: 0
+      forceEffect: true
+      forceEffectDuration: 90
+      forceEffectAmplifier: 90
+      regenEffect: true
+      regenEffectDuration: 90
+      regenEffectAmplifier: 90
+
+farmers:
+  title: "&7Farms"
+  maxLevel: 1
+  levels:
+    0:
+      price: 0
+      title: "level 0"
+      lore: "level 0"
+      wheatModifier: 1
+      woolChance: 0
+      woolModifier: 1
+      wheatChance: 0
+      carrotModifier: 1
+      carrotChance: 0
+      goldenAppleChance: 0
+      goldenAppleModifier: 1
+
